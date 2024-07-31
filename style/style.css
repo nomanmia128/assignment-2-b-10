@@ -1,0 +1,88 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Google Font 2 */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(180deg,rgb(59, 59, 59), rgba(0, 0, 0, 1));
+    background-repeat: no-repeat;
+    margin: 57px 190px 35px 190px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav styles */
+nav{
+    width: 1060px;
+    height: 46px;
+    /* border: 2px solid sandybrown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    width: 465px;
+    height: 46px;
+    border: 2px solid rgb(255, 234, 0);
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    border: 1px solid rgb(84, 84, 83);
+    border-radius: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 0px;
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+nav h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.home-style{
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 48px;
+}
+.home-style a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hum-burger{
+    display: none;
+}
+
+/* Responcip */
+@media screen and (max-width: 576px) {
+    body{
+        margin: 30px 20px;
+    }
+    nav{
+        flex-direction: row;
+    }
+    nav ul{
+        display: none;
+    }
+    .hum-burger{
+        display: block;
+        color: white;
+    }
+}
+
+/* leagdives responcip */
+/* @media screen and (min-width: 992) {
+    
+} */
