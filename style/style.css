@@ -126,14 +126,16 @@ nav h3{
 }
 /* bottom btn */
 .bottom-btn{
-    padding: 20px 23px;
+    padding: 15px 23px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 12px;
-    
+    margin-left: -100px;
+    margin-top: -165px;
+    position: absolute;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(48, 48, 48, 0.54);
 }
@@ -144,8 +146,8 @@ nav h3{
     align-items: start;
 }
 #boll{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background-color: rgb(230, 83, 60);
     border-radius: 50px;
 }
