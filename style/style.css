@@ -188,6 +188,56 @@ nav h3{
     color: rgba(239, 237, 232, 0.65);
 }
 
+/* Main section styles */
+
+/* Change Your Habits section styles */
+.habite-title{
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 220px;
+}
+.habite-title h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.habite-title p{
+    color: #747272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/* Habite card */
+.habits-section-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.habit-card{
+    width: 231px;
+    height: 274px;
+    text-align: center;
+}
+.habit-card img{
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.habit-card h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+.habit-card p{
+    color: #747272;
+    font-size: 14px;
+    font-weight: 400;
+}
 
 /* Responcip */
 @media screen and (max-width: 576px) {
@@ -234,14 +284,35 @@ nav h3{
     .banner-img-contant {
         width: auto;
     }
-    /* .top-btn{
+    .top-btn{
         padding: 10px 15px;
         margin-left: 192px;
         margin-top: -550px;
-    } */
+    }
     .bottom-btn{
         margin-left: 5px;
         margin-top: -340px ;
+    }
+
+    /* Habite */
+    .habite-title{
+        padding: 0;
+    }
+    .habite-title h3 {
+        font-size: 30px;
+    }
+    .habit-card p{
+        margin-bottom: 30px;
+    }
+    .habit-card{
+        padding-top: 30px;
+    }
+    .habits-section-card{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .habit-card img{
+        margin-bottom: 0;
     }
 }
  
