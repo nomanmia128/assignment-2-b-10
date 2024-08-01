@@ -169,12 +169,12 @@ nav h3{
    justify-content: center;
    align-items: start;
    border-radius: 12px;
-   /* margin-left: 240px;
+   margin-left: 240px;
    margin-top: -450px;
-   position: absolute; */
+   position: absolute;
    border: 1px solid rgba(255, 255, 255, 0.1);
    background: rgba(48, 48, 48, 0.54);
-   /* backdrop-filter: blur(20px); */
+   backdrop-filter: blur(20px);
 }
 
 #free-number{
