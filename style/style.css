@@ -161,6 +161,34 @@ nav h3{
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
 }
+/* top-btn */
+.top-btn{
+   padding: 12px 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   border-radius: 12px;
+   /* margin-left: 240px;
+   margin-top: -450px;
+   position: absolute; */
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   background: rgba(48, 48, 48, 0.54);
+   /* backdrop-filter: blur(20px); */
+}
+
+#free-number{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+#free-video{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+
 /* Responcip */
 @media screen and (max-width: 576px) {
     body{
@@ -206,8 +234,17 @@ nav h3{
     .banner-img-contant {
         width: auto;
     }
+    /* .top-btn{
+        padding: 10px 15px;
+        margin-left: 192px;
+        margin-top: -550px;
+    } */
+    .bottom-btn{
+        margin-left: 5px;
+        margin-top: -340px ;
+    }
 }
-
+ 
 /* leagdives responcip */
 @media screen and (min-width: 992px) and (max-width: 1440px){
     
