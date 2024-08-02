@@ -239,6 +239,52 @@ nav h3{
     font-weight: 400;
 }
 
+/* Run Section styles */
+.run-section{
+    /* width: 1060px; */
+    /* height: 371px; */
+    display: flex;
+    margin: 50px 0px;
+    gap: 155px;
+    padding: 30px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 18px
+}
+
+.run-img-containt img{
+    width: 366px;
+    height: 100%;
+    object-fit: none;
+    object-position: 66% 33%;
+    border-radius: 18px;
+}
+.run-text-containt{
+    padding: 20px;
+    width: 443px;
+    height: 290px;
+}
+.run-text-containt h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+.run-text-containt p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #989393;
+    margin-bottom: 30px;
+}
+.run-btn{
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 26px;
+    border: none;
+}
+
 /* Responcip */
 @media screen and (max-width: 576px) {
     body{
@@ -313,6 +359,26 @@ nav h3{
     }
     .habit-card img{
         margin-bottom: 0;
+    }
+    /* run */
+    .run-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .run-img-containt img{
+        width: 100%;
+        object-fit: unset;
+    }
+    .run-text-containt h3{
+        font-size: 36px;
+    }
+    .run-text-containt{
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .run-btn {
+        width: 100%;
     }
 }
  
