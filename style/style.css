@@ -240,9 +240,9 @@ nav h3{
 }
 
 /* Run Section styles */
-.run-section{
-    /* width: 1060px; */
-    /* height: 371px; */
+/* .run-section{
+    width: 1060px;
+    height: 371px;
     display: flex;
     margin: 50px 0px;
     gap: 155px;
@@ -252,8 +252,8 @@ nav h3{
 }
 
 .run-img-containt img{
-    width: 366px;
-    height: 100%;
+    width: 300px;
+    height: 312px;
     object-fit: none;
     object-position: 66% 33%;
     border-radius: 18px;
@@ -261,7 +261,7 @@ nav h3{
 .run-text-containt{
     padding: 20px;
     width: 443px;
-    height: 290px;
+    height: auto;
 }
 .run-text-containt h3{
     font-size: 48px;
@@ -283,8 +283,57 @@ nav h3{
     color: white;
     border-radius: 26px;
     border: none;
+} */
+.run-section{
+   height: 350px;
+   display: flex;
+   margin-top: 50px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+   border-radius: 18px;
+   background-color: rgb(55, 55, 55);
+   
 }
-
+.run-text-containt{
+   width: 443px;
+   height: 290px;
+   border-radius: 18px;
+}
+.run-img-containt{
+     width: 366px;
+     height: 312px;
+     border-radius: 18px;
+     
+}
+.run-img-containt img{
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: 66% 33%;
+  border-radius: 18px;
+}
+.run-text-containt h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+.run-text-containt p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #989393;
+    margin-bottom: 30px;
+}
+.run-btn{
+    padding: 16px 60px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 26px;
+    border: none;
+}
 /* Responcip */
 @media screen and (max-width: 576px) {
     body{
@@ -364,10 +413,16 @@ nav h3{
     .run-section{
         flex-direction: column;
         gap: 30px;
+        height: auto;
     }
+    .run-img-containt{
+        width: auto;
+        height: auto;
+   }
     .run-img-containt img{
         width: 100%;
-        object-fit: unset;
+        object-fit: cover;
+        object-position: center center;
     }
     .run-text-containt h3{
         font-size: 36px;
