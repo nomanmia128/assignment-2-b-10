@@ -1,0 +1,66 @@
+.flex-container{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.name{
+    flex: 1 0 140px;
+    background-color: rgb(105, 72, 135);
+    padding: 10px 0px 10px 10px;
+}
+.email{
+    flex: 1 0 140px;
+    background-color: aquamarine;
+    padding: 10px 0px 10px 10px;
+}
+button{
+    flex: 1 0 60px;
+    background-color: rgb(241, 46, 176);
+    padding: 10px 0px 10px 10px;
+}
+
+
+/* ------------ */
+.assigenment{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 200px;
+}
+.Height{
+    flex: 1 0 140px;
+    background-color: rgb(153, 52, 248);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+.Weight{
+    flex: 1 0 140px;
+    background-color: rgb(113, 203, 175);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+.age{
+    flex: 1 0 130px;
+    background-color: rgb(204, 227, 75);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+.sex{
+    flex: 1 0 140px;
+    background-color: rgb(222, 148, 63);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 8px;
+}
+.select{
+    flex: 1 0 60px;
+    background-color: rgb(241, 46, 176);
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 8px;
+}

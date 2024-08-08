@@ -79,13 +79,13 @@ nav h3{
     width: 520px;
     height: 439px;
     margin-top: 97px;
-    border: 2px solid forestgreen;
+    /* border: 2px solid forestgreen; */
 }
 .banner-img-contant{
     width: 349px;
     height: 580px;
     margin-top: 32px;
-    border: 2px solid rgb(218, 198, 19);
+    /* border: 2px solid rgb(218, 198, 19); */
 }
 
 .banner-title{
@@ -196,7 +196,7 @@ nav h3{
 
 /* Change Your Habits section styles */
 .habits-section{
-    margin: 57px 130px 35px 130px;
+    margin: 88px 130px 88px 130px;
 }
 .habite-title{
     text-align: center;
@@ -417,17 +417,14 @@ nav h3{
 
 .calculator-table{
      display: flex;
-     /* justify-content: space-between; */
-     gap: 175px;
-     background-color: #232222;
-
-     padding: 50px 130px 35px 130px;
+     gap: 208px;
+     background-color: rgb(35, 35, 35);
+     padding: 40px 130px 10px 130px;
 }
-
 
 table{
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin-top: 52px;
     width: 350px;
     height: 216px;
 }
@@ -445,7 +442,7 @@ td, th{
 }
 
 .bmi-input{
-  
+  /* border: 2px solid green; */
     width: 450px;
     height: 386px;
 }
@@ -461,25 +458,31 @@ td, th{
     color: rgb(88, 87, 87);
     margin-bottom: 34px;
 }
+
 input{
-    padding: 14px 28px;
+    width: auto;
+    padding: 15px 40px 15px 10px;
     border-radius: 8px;
-    margin-bottom: 12px;
-    background-color: #363535;
+    background-color:  #363535;
     border: none;
+    margin-bottom: 12px;
+    margin-right: 8px;
 }
+ 
 .sex-option{
-    padding: 14px 155px 14px 5px;
+   
+    width: auto;
+    padding: 15px 161px 15px 5px;
     border-radius: 8px;
     color: #787777;
     background-color: #363535;
     border: none;
 }
 .select-option{
-    padding: 14px 272px 14px 5px;
+    width: auto;
+    padding: 15px 271px 15px 5px;
     border-radius: 8px;
     margin-bottom: 30px;
-    margin-left: 1px;
     color: #787777;
     background-color: #363535;
     border: none;
@@ -495,14 +498,18 @@ input{
 }
 
 /* Footer section styles */
+footer{
+    padding: 58px 130px 50px 130px;
+}
 .footer-section{
-    padding: 58px 130px 32px 130px;
+    padding-bottom: 58px;
     display: flex;
-    gap: 50px;
+    gap: 90px;
 }
 .footer-title-container{
-    width: 400px;
+    width: 443px;
     height: 200px;
+    padding-top: 50px;
 }
 .footer-title{
     font-size: 48px;
@@ -516,19 +523,19 @@ input{
     color: #989393;
 }
 .get-started-servics{
-    width: 300px;
-    height: 200px;
-    margin-bottom: 30px;
+    width: 181px;
+    height: 249px;
+    /* margin-bottom: 30px; */
 }
 .get-started-servics h3{
     font-size: 32px;
     font-weight: 600;
     color: white;
-    padding-bottom: 15px;
+    padding-bottom: 39px;
 }
 .get-started-servics ul li{
     list-style: none;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .get-started-servics ul li a{
     font-size: 18px;
@@ -540,21 +547,21 @@ input{
     color: #989393;
     font-size: 20px;
     font-weight: 500;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 36px;
 }
 
 
 /* Responcip */
 @media screen and (max-width: 576px) {
     body{
-        padding: 30px 20px;
+        /* padding: 30px 20px; */
     }
     header,
     .habits-section,
     .run-section,
-    .meet-section{
-        margin: 0;
+    .meet-section
+    {
+       margin: 30px 20px;
     }
     nav{
         flex-direction: row;
@@ -590,9 +597,7 @@ input{
         font-size: 16px;
         margin-left: 5px;
     }
-    /* .banner-description{
-      margin-right: 20%;
-    } */
+    
     .banner-img-contant {
         width: auto;
     }
@@ -617,7 +622,10 @@ input{
         margin-bottom: 30px;
     }
     .habit-card{
-        padding-top: 30px;
+        margin-top: 30px;
+    }
+    .habit-card h3{
+        padding-top: 20px;
     }
     .habits-section-card{
         grid-template-columns: repeat(1, 1fr);
@@ -629,7 +637,7 @@ input{
     /* run */
     .run-section{
         flex-direction: column;
-        gap: 30px;
+        margin-top: 58px;
         height: auto;
     }
     .run-img-containt{
@@ -640,6 +648,7 @@ input{
         width: 100%;
         object-fit: cover;
         object-position: center center;
+        margin-top: 50px;
     }
     .run-text-containt h3{
         font-size: 36px;
@@ -654,9 +663,9 @@ input{
     }
     /* Bmi */
     .calculator-table{
-        flex-direction: column;
+       flex-direction: column;
        width: 100%;
-       padding: 0;
+       padding: 30px 20px;
        gap: 30px;
     }
     .title{
@@ -674,15 +683,29 @@ input{
         width: 100%;
         height: 100%;
     }
+    input{
+        width: 47%;
+    }
+    .sex-option{
+        width: 47%;
+        padding: 15px 30% 15px 10px;
+        color: #787777;
+    }
+    .select-option{
+        width: 97%;
+    }
     /* meet */
     .meet-triner-card{
         grid-template-columns: repeat(1, 1fr);
     }
     /* Footer */
+    footer{
+        padding: 30px 20px;
+    }
     .footer-section{
         flex-direction: column;
-        padding: 20px 0px;
-        gap: 0;
+        padding: 58px 0px;
+        gap: 50px;
     }
     .footer-title-container{
        width: 100%;
