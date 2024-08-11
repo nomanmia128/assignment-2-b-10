@@ -4,18 +4,24 @@
 /* Google Font 2 */
 @import url('https://fonts.cdnfonts.com/css/miama');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     
     font-family: "Inter", sans-serif;
     background: linear-gradient(180deg,rgb(59, 59, 59), rgba(0, 0, 0, 1));
     background-repeat: no-repeat;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body .main-container{
+    width: 1250px;
 }
 
 header{
@@ -71,7 +77,8 @@ nav h3{
 
 .banner-container{
     display: flex;
-    gap: 167px;
+    /* gap: 167px; */
+    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -247,50 +254,6 @@ nav h3{
 }
 
 /* Run Section styles */
-/* .run-section{
-    width: 1060px;
-    height: 371px;
-    display: flex;
-    margin: 50px 0px;
-    gap: 155px;
-    padding: 30px;
-    background-color: rgb(55, 55, 55);
-    border-radius: 18px
-}
-
-.run-img-containt img{
-    width: 300px;
-    height: 312px;
-    object-fit: none;
-    object-position: 66% 33%;
-    border-radius: 18px;
-}
-.run-text-containt{
-    padding: 20px;
-    width: 443px;
-    height: auto;
-}
-.run-text-containt h3{
-    font-size: 48px;
-    font-weight: 900;
-    color: white;
-    margin-bottom: 20px;
-}
-.run-text-containt p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #989393;
-    margin-bottom: 30px;
-}
-.run-btn{
-    padding: 16px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: rgb(230, 83, 60);
-    color: white;
-    border-radius: 26px;
-    border: none;
-} */
 .run-section{
    height: 350px;
    display: flex;
@@ -311,15 +274,17 @@ nav h3{
      width: 366px;
      height: 312px;
      border-radius: 18px;
-     
 }
-.run-img-containt img{
-  width: 100%;
-  height: 100%;
-  object-fit: none;
-  object-position: 66% 33%;
-  border-radius: 18px;
+
+.run-img-containt img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 69% 31%;
+    border-radius: 18px;
+    zoom: 79%;
 }
+
 .run-text-containt h3{
     font-size: 48px;
     font-weight: 900;
@@ -458,15 +423,24 @@ td, th{
     color: rgb(88, 87, 87);
     margin-bottom: 34px;
 }
+/* ===== */
+.input-contant{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
 
+
+/* ===== */
 input{
-    width: auto;
+    width: 100%;
     padding: 15px 40px 15px 10px;
     border-radius: 8px;
     background-color:  #363535;
     border: none;
-    margin-bottom: 12px;
-    margin-right: 8px;
+    /* margin-bottom: 12px;
+    margin-right: 8px; */
 }
  
 .sex-option{
@@ -480,7 +454,7 @@ input{
 }
 .select-option{
     width: auto;
-    padding: 15px 271px 15px 5px;
+    padding: 15px 285px 15px 5px;
     border-radius: 8px;
     margin-bottom: 30px;
     color: #787777;
@@ -554,7 +528,7 @@ footer{
 /* Responcip */
 @media screen and (max-width: 576px) {
     body{
-        /* padding: 30px 20px; */
+        /* width: auto; */
     }
     header,
     .habits-section,
@@ -645,9 +619,11 @@ footer{
         height: auto;
    }
     .run-img-containt img{
-        width: 100%;
-        object-fit: cover;
-        object-position: center center;
+        height: 100%;
+        object-fit: none;
+        object-position: 69% 31%;
+        border-radius: 18px;
+        zoom: 35%;
         margin-top: 50px;
     }
     .run-text-containt h3{
@@ -683,16 +659,13 @@ footer{
         width: 100%;
         height: 100%;
     }
-    input{
-        width: 47%;
-    }
+      
     .sex-option{
-        width: 47%;
         padding: 15px 30% 15px 10px;
         color: #787777;
     }
     .select-option{
-        width: 97%;
+        width: 100%;
     }
     /* meet */
     .meet-triner-card{
@@ -704,16 +677,14 @@ footer{
     }
     .footer-section{
         flex-direction: column;
-        padding: 58px 0px;
+        /* padding: 58px 0px; */
         gap: 50px;
     }
     .footer-title-container{
        width: 100%;
+       padding-top: 0px;
+       height: auto;
     }
 
 }
  
-/* leagdives responcip */
-@media screen and (min-width: 992px) and (max-width: 1440px){
-    
-}
