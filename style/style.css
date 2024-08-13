@@ -21,7 +21,8 @@ body{
 }
 
 body .main-container{
-    width: 1250px;
+    width: 1400px;
+    /* border: 2px solid red; */
 }
 
 header{
@@ -36,7 +37,6 @@ nav{
     justify-content: space-between;
 }
 nav ul{
-   
     /* border: 2px solid rgb(255, 234, 0); */
     display: flex;
     list-style: none;
@@ -227,10 +227,11 @@ nav h3{
 .habits-section-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
 }
 
 .habit-card{
-    width: 231px;
+    width: 250px;
     height: 274px;
     text-align: center;
 }
@@ -408,7 +409,7 @@ td, th{
 
 .bmi-input{
   /* border: 2px solid green; */
-    width: 450px;
+    width: 577px;
     height: 386px;
 }
 .bmi-input h4{
@@ -439,13 +440,11 @@ input{
     border-radius: 8px;
     background-color:  #363535;
     border: none;
-    /* margin-bottom: 12px;
-    margin-right: 8px; */
 }
  
 .sex-option{
    
-    width: auto;
+    width: 100%;
     padding: 15px 161px 15px 5px;
     border-radius: 8px;
     color: #787777;
@@ -453,8 +452,8 @@ input{
     border: none;
 }
 .select-option{
-    width: auto;
-    padding: 15px 285px 15px 5px;
+    width: 100%;
+    padding: 15px;
     border-radius: 8px;
     margin-bottom: 30px;
     color: #787777;
@@ -478,18 +477,18 @@ footer{
 .footer-section{
     padding-bottom: 58px;
     display: flex;
-    gap: 90px;
+    /* gap: 90px; */
+    justify-content: space-between;
 }
 .footer-title-container{
     width: 443px;
     height: 200px;
-    padding-top: 50px;
 }
 .footer-title{
     font-size: 48px;
     font-weight: 800;
     color: rgb(230, 83, 60);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .footer-desciption{
     font-size: 16px;
@@ -527,9 +526,7 @@ footer{
 
 /* Responcip */
 @media screen and (max-width: 576px) {
-    body{
-        /* width: auto; */
-    }
+
     header,
     .habits-section,
     .run-section,
