@@ -475,7 +475,9 @@ input{
 
 /* Footer section styles */
 footer{
+    margin-top: 88px;
     padding: 58px 130px 50px 130px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-section{
     padding-bottom: 58px;
@@ -535,7 +537,7 @@ footer{
     .run-section,
     .meet-section
     {
-       margin: 30px 20px;
+       margin: 30px 30px;
     }
     nav{
         flex-direction: row;
@@ -645,12 +647,12 @@ footer{
     .calculator-table{
        flex-direction: column;
        width: 100%;
-       padding: 30px 20px;
+       padding: 30px 30px;
        gap: 30px;
     }
     .title{
         width: auto;
-        margin: 30px 20px;
+        margin: 30px 30px;
     }
     .calculator-title{
         font-size: 40px;
@@ -677,11 +679,10 @@ footer{
     }
     /* Footer */
     footer{
-        padding: 30px 20px;
+        padding: 30px 30px;
     }
     .footer-section{
         flex-direction: column;
-        /* padding: 58px 0px; */
         gap: 50px;
     }
     .footer-title-container{
