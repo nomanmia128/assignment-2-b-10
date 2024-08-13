@@ -21,8 +21,7 @@ body{
 }
 
 body .main-container{
-    width: 1400px;
-    /* border: 2px solid red; */
+    max-width: 1250px;
 }
 
 header{
@@ -92,7 +91,6 @@ nav h3{
     width: 349px;
     height: 580px;
     margin-top: 32px;
-    /* border: 2px solid rgb(218, 198, 19); */
 }
 
 .banner-title{
@@ -157,10 +155,15 @@ nav h3{
     align-items: start;
 }
 #boll{
-    width: 35px;
+    font-size: 40px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(230, 83, 60);
+    border-radius: 100%;
+
+    /* width: 35px;
     height: 35px;
     background-color: rgb(230, 83, 60);
-    border-radius: 50px;
+    border-radius: 50px; */
 }
 #number{
     font-size: 25px;
@@ -231,7 +234,7 @@ nav h3{
 }
 
 .habit-card{
-    width: 250px;
+    width: 100%;
     height: 274px;
     text-align: center;
 }
@@ -445,7 +448,7 @@ input{
 .sex-option{
    
     width: 100%;
-    padding: 15px 161px 15px 5px;
+    padding: 15px 5px;
     border-radius: 8px;
     color: #787777;
     background-color: #363535;
@@ -453,7 +456,7 @@ input{
 }
 .select-option{
     width: 100%;
-    padding: 15px;
+    padding: 15px 5px;
     border-radius: 8px;
     margin-bottom: 30px;
     color: #787777;
@@ -581,6 +584,9 @@ footer{
         margin-left: 5px;
         margin-top: -340px ;
     }
+    #boll{
+        background-color: white;
+    }
 
     /* Habite */
     .habite-title{
@@ -594,6 +600,7 @@ footer{
     }
     .habit-card{
         margin-top: 30px;
+        width: 247px;
     }
     .habit-card h3{
         padding-top: 20px;
