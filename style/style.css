@@ -537,7 +537,7 @@ footer{
     .run-section,
     .meet-section
     {
-       margin: 30px 30px;
+       margin: 30px 20px;
     }
     nav{
         flex-direction: row;
@@ -647,12 +647,12 @@ footer{
     .calculator-table{
        flex-direction: column;
        width: 95%;
-       padding: 30px 30px;
+       padding: 30px 20px;
        gap: 30px;
     }
     .title{
         width: auto;
-        margin: 30px 30px;
+        margin: 30px 20px;
     }
     .calculator-title{
         font-size: 40px;
@@ -679,7 +679,7 @@ footer{
     }
     /* Footer */
     footer{
-        padding: 30px 30px;
+        padding: 30px 20px;
     }
     .footer-section{
         flex-direction: column;
