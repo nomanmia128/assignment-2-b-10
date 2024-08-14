@@ -646,7 +646,7 @@ footer{
     /* Bmi */
     .calculator-table{
        flex-direction: column;
-       width: 98%;
+       width: 95%;
        padding: 30px 30px;
        gap: 30px;
     }
